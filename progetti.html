@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Progetti | Officina Ingegneri srl</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a href="index.html" class="logo">OFFICINA <span>INGEGNERI</span></a>
+    <button class="burger" aria-label="Apri il menu">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="progetti.html">Progetti</a></li>
+      <li><a href="studio.html">Lo Studio</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul></nav>
+  </div>
+</header>
+<section><div class="container">
+  <h2>I nostri progetti</h2>
+  <p class="sub">Seleziona un settore o clicca su una fotografia per ingrandirla.</p>
+  <div class="filtri">
+    <button data-cat="tutti" class="active">Tutti</button>
+    <button id="filter-pubblici" data-cat="pubblici">Lavori pubblici</button>
+    <button id="filter-industriali" data-cat="industriali">Edifici industriali</button>
+    <button id="filter-sportivi" data-cat="sportivi">Impianti sportivi</button>
+    <button id="filter-residenziale" data-cat="residenziale">Residenziale</button>
+    <button id="filter-biogas" data-cat="biogas">Energetico – Biogas</button>
+  </div>
+  <div class="grid">
+    <article class="card progetto" data-cat="pubblici">
+      <div class="project-gallery">
+        <img src="img/lavori-pubblici/25-46-SAN%20ZENO/2025%2002%2002/SAVE_20250203_111633.jpg" alt="Vista frontale del lavoro a San Zeno" loading="lazy">
+        <img src="img/lavori-pubblici/25-46-SAN%20ZENO/2025-02-04/1738666351075.jpg" alt="Vista d’insieme del lavoro a San Zeno" loading="lazy">
+        <img src="img/lavori-pubblici/25-46-SAN%20ZENO/2026-04-29/IMG-20260429-WA0005.jpg" alt="Vista del lavoro a San Zeno" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Lavori pubblici</span><h3>San Zeno</h3></div>
+    </article>
+    <article class="card progetto" data-cat="pubblici">
+      <div class="project-gallery">
+        <img src="img/lavori-pubblici/25-83-CIMITERO%20AZZANO/2025-04-11/1744380694313.jpg" alt="Vista d’insieme delle armature nel cantiere del cimitero di Azzano" loading="lazy">
+        <img src="img/lavori-pubblici/25-83-CIMITERO%20AZZANO/2025-04-11/1744380694322.jpg" alt="Armature e casseri nel cantiere del cimitero di Azzano" loading="lazy">
+        <img src="img/lavori-pubblici/25-83-CIMITERO%20AZZANO/2025-04-11/1744380694332.jpg" alt="Lavorazioni in calcestruzzo nel cantiere del cimitero di Azzano" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Lavori pubblici</span><h3>Azzano - Cimitero</h3></div>
+    </article>
+
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-44-CEMI%20LENTINI/1743681080400.jpg" alt="Struttura in acciaio durante il cantiere CEMI" loading="lazy">
+        <img src="img/edifici-industriali/24-44-CEMI%20LENTINI/IMG-20260227-WA0005.jpg" alt="Vista frontale dell’edificio CEMI" loading="lazy">
+        <img src="img/edifici-industriali/24-44-CEMI%20LENTINI/IMG-20260227-WA0006.jpg" alt="Vista laterale dell’edificio CEMI" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Lentini - CEMI</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/25-02-OMIFER%20-%20PENSILINE%20LIDL%20SALO%27/1738596507139.jpg" alt="Vista della pensilina presso Lidl a Salò" loading="lazy">
+        <img src="img/edifici-industriali/25-02-OMIFER%20-%20PENSILINE%20LIDL%20SALO%27/1738596507157.jpg" alt="Pensilina e fabbricato Lidl a Salò" loading="lazy">
+        <img src="img/edifici-industriali/25-02-OMIFER%20-%20PENSILINE%20LIDL%20SALO%27/1738596507118.jpg" alt="Vista della copertura della pensilina Lidl" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Salò - Pensiline Lidl</h3><p>Intervento sulle pensiline presso il punto vendita Lidl di Salò.</p></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img class="contain-photo" src="img/edifici-industriali/25-15-ALTOLAGO%20SPA/1753892985081.jpg" alt="Vista della struttura presso Altolago S.p.A." loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Altolago S.p.A.</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/25-55-RACK%20-%20MARTELLI%20DOSOLO/1762586501525.jpg" alt="Struttura a rack presso Martelli a Dosolo" loading="lazy">
+        <img src="img/edifici-industriali/25-55-RACK%20-%20MARTELLI%20DOSOLO/IMG-20251017-WA0007.jpg" alt="Montaggio della struttura a rack presso Martelli" loading="lazy">
+        <img src="img/edifici-industriali/25-55-RACK%20-%20MARTELLI%20DOSOLO/IMG-20251017-WA0008.jpg" alt="Vista d’insieme della struttura a rack" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Dosolo - Rack Martelli</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/26-04%20-%20FERRARI%20GROWTECH/IMG-20251213-WA0007.jpg" alt="Vista esterna dell’edificio Ferrari Growtech" loading="lazy">
+        <img src="img/edifici-industriali/26-04%20-%20FERRARI%20GROWTECH/IMG-20251213-WA0008.jpg" alt="Vista della copertura e del passaggio esterno Ferrari Growtech" loading="lazy">
+        <img src="img/edifici-industriali/26-04%20-%20FERRARI%20GROWTECH/IMG-20251213-WA0012.jpg" alt="Vista interna dell’edificio Ferrari Growtech" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Ferrari Growtech</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/H%20Leno/IMG-20260312-WA0004.jpg" alt="Vista frontale della struttura presso H Leno" loading="lazy">
+        <img src="img/edifici-industriali/H%20Leno/IMG-20260527-WA0005.jpg" alt="Vista della facciata con struttura metallica presso H Leno" loading="lazy">
+        <img src="img/edifici-industriali/H%20Leno/IMG-20260603-WA0010.jpg" alt="Vista d’insieme dell’edificio H Leno" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>H Leno</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/TECNOBETON/1743254897815.jpg" alt="Vista esterna della struttura Tecnobeton" loading="lazy">
+        <img src="img/edifici-industriali/TECNOBETON/1743254897854.jpg" alt="Vista dell’edificio Tecnobeton" loading="lazy">
+        <img src="img/edifici-industriali/TECNOBETON/1743254897797.jpg" alt="Vista interna dell’edificio Tecnobeton" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Tecnobeton</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-61-OMR/2025-01-30/1738242783424.jpg" alt="Vista esterna della struttura OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-01-30/SAVE_20250203_110509.jpg" alt="Struttura metallica OMR durante il cantiere" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-01-30/SAVE_20250203_110709.jpg" alt="Vista dell’edificio OMR in fase avanzata" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>OMR</h3></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20nuovo%20ingresso/SAVE_20250203_143106.jpg" alt="Vista esterna del nuovo ingresso OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20nuovo%20ingresso/SAVE_20250203_143133.jpg" alt="Vista della copertura del nuovo ingresso OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20nuovo%20ingresso/SAVE_20250203_143207.jpg" alt="Vista laterale del nuovo ingresso OMR" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>OMR - Nuovo ingresso</h3><p>Nuovo ingresso, secondo il nome della cartella.</p></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20officina/SAVE_20250203_110606.jpg" alt="Lavorazioni metalliche nell’officina OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20officina/SAVE_20250203_110616.jpg" alt="Vista interna dell’officina OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20officina/SAVE_20250203_110626.jpg" alt="Vista d’insieme dell’officina OMR" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>OMR - Officina</h3><p>Officina, secondo il nome della cartella.</p></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20scala%20uffici/SAVE_20250203_110644.jpg" alt="Scala metallica negli uffici OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20scala%20uffici/SAVE_20250203_110653.jpg" alt="Vista della scala degli uffici OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20scala%20uffici/SAVE_20250203_114036.jpg" alt="Vista d’insieme della scala degli uffici OMR" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>OMR - Scala uffici</h3><p>Scala degli uffici, secondo il nome della cartella.</p></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20spogliatoio%20e%20pensiline%20parcheggio/SAVE_20250203_143224.jpg" alt="Vista dell’edificio e delle pensiline presso OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20spogliatoio%20e%20pensiline%20parcheggio/SAVE_20250203_143243.jpg" alt="Pensiline del parcheggio OMR" loading="lazy">
+        <img src="img/edifici-industriali/24-61-OMR/2025-02-02%20spogliatoio%20e%20pensiline%20parcheggio/SAVE_20250203_143304.jpg" alt="Vista d’insieme delle pensiline presso OMR" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>OMR - Spogliatoio e pensiline parcheggio</h3><p>Descrizione basata sul nome della cartella.</p></div>
+    </article>
+    <article class="card progetto" data-cat="industriali">
+      <div class="project-gallery">
+        <img src="img/edifici-industriali/DOMPE%27%20MILANO/2025-01-29/1738182417178.jpg" alt="Vista della struttura presso Dompé a Milano" loading="lazy">
+        <img src="img/edifici-industriali/DOMPE%27%20MILANO/2025-01-29/1738182417180.jpg" alt="Vista della copertura presso Dompé a Milano" loading="lazy">
+        <img src="img/edifici-industriali/DOMPE%27%20MILANO/2025-01-29/1738182417184.jpg" alt="Vista laterale della struttura presso Dompé" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Edifici industriali</span><h3>Milano - Dompé</h3></div>
+    </article>
+
+    <article class="card progetto" data-cat="sportivi">
+      <div class="project-gallery">
+        <img src="img/impianti-sportivi/24-13-REMEDELLO/Remedello/IMG-20251218-WA0059.jpg" alt="Vista interna della struttura sportiva a Remedello" loading="lazy">
+        <img src="img/impianti-sportivi/24-13-REMEDELLO/Remedello/IMG-20251218-WA0053.jpg" alt="Copertura interna della struttura a Remedello" loading="lazy">
+        <img src="img/impianti-sportivi/24-13-REMEDELLO/Remedello/IMG-20251218-WA0063.jpg" alt="Vista della struttura in costruzione a Remedello" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Impianti sportivi</span><h3>Remedello</h3></div>
+    </article>
+    <article class="card progetto" data-cat="sportivi">
+      <div class="project-gallery">
+        <img src="img/impianti-sportivi/24-36-PALESTRA%20Bedizzole/2025-01-30/1738242955656.jpg" alt="Vista interna della palestra di Bedizzole" loading="lazy">
+        <img src="img/impianti-sportivi/24-36-PALESTRA%20Bedizzole/2025-01-30/2025-02-04/1738666703132.jpg" alt="Lavorazioni nel cantiere della palestra di Bedizzole" loading="lazy">
+        <img src="img/impianti-sportivi/24-36-PALESTRA%20Bedizzole/2025-01-30/2025-03-14/1742051692182.jpg" alt="Vista del campo e della copertura della palestra di Bedizzole" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Impianti sportivi</span><h3>Bedizzole - Palestra</h3></div>
+    </article>
+    <article class="card progetto" data-cat="sportivi">
+      <div class="project-gallery">
+        <img src="img/impianti-sportivi/25-29-PROFESSIONAL%20TENNIS%20SCHOOL/2025-03-26/2025-03-13/1741958130134.jpg" alt="Lavorazioni nel cantiere della Professional Tennis School" loading="lazy">
+        <img src="img/impianti-sportivi/25-29-PROFESSIONAL%20TENNIS%20SCHOOL/2025-03-26/1743083257089.jpg" alt="Montaggio della struttura ad arco presso la Professional Tennis School" loading="lazy">
+        <img src="img/impianti-sportivi/25-29-PROFESSIONAL%20TENNIS%20SCHOOL/2025-03-26/1743083257095.jpg" alt="Vista d’insieme della struttura presso la Professional Tennis School" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Impianti sportivi</span><h3>Professional Tennis School</h3></div>
+    </article>
+
+    <article class="card progetto" data-cat="residenziale">
+      <div class="project-gallery">
+        <img src="img/residenziale/Gorgonzola/IMG-20260119-WA0010.jpg" alt="Vista interna della struttura lignea nel sottotetto a Gorgonzola" loading="lazy">
+        <img src="img/residenziale/Gorgonzola/IMG-20260119-WA0014.jpg" alt="Vista esterna del cantiere a Gorgonzola" loading="lazy">
+        <img src="img/residenziale/Gorgonzola/IMG-20260119-WA0018.jpg" alt="Vista della struttura del sottotetto a Gorgonzola" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Residenziale</span><h3>Gorgonzola</h3></div>
+    </article>
+    <article class="card progetto" data-cat="residenziale">
+      <div class="project-gallery">
+        <img src="img/residenziale/Via%20Cellini%2001-04-26/IMG-20260401-WA0001.jpg" alt="Struttura metallica del balcone in via Cellini" loading="lazy">
+        <img src="img/residenziale/Via%20Cellini%2001-04-26/IMG-20260401-WA0003.jpg" alt="Vista esterna dell’edificio in via Cellini" loading="lazy">
+        <img src="img/residenziale/Via%20Cellini%2001-04-26/IMG-20260401-WA0008.jpg" alt="Parapetto del balcone in via Cellini" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Residenziale</span><h3>Via Cellini</h3></div>
+    </article>
+
+    <article class="card progetto" data-cat="biogas">
+      <div class="project-gallery">
+        <img src="img/energetico-biogas/25-117%20RODI%27%20MILICI/IMG-20260609-WA0004.jpg" alt="Vista dell’impianto presso Rodì Milici" loading="lazy">
+        <img src="img/energetico-biogas/25-117%20RODI%27%20MILICI/IMG-20260616-WA0008.jpg" alt="Vista d’insieme del cantiere a Rodì Milici" loading="lazy">
+        <img src="img/energetico-biogas/25-117%20RODI%27%20MILICI/IMG-20260616-WA0009.jpg" alt="Armature nel cantiere dell’impianto a Rodì Milici" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Energetico – Biogas</span><h3>Rodì Milici</h3></div>
+    </article>
+    <article class="card progetto" data-cat="biogas">
+      <div class="project-gallery">
+        <img src="img/energetico-biogas/26-61%20-%20EBOLI/31-07-2026/WhatsApp%20Image%202026-07-31%20at%2007.24.43.jpeg" alt="Vista dall’alto del cantiere a Eboli" loading="lazy">
+        <img src="img/energetico-biogas/26-61%20-%20EBOLI/31-07-2026/WhatsApp%20Image%202026-07-31%20at%2007.24.40%20(2).jpeg" alt="Struttura circolare in costruzione a Eboli" loading="lazy">
+        <img src="img/energetico-biogas/26-61%20-%20EBOLI/31-07-2026/WhatsApp%20Image%202026-07-31%20at%2007.24.41%20(6).jpeg" alt="Vista interna di una struttura circolare nel cantiere di Eboli" loading="lazy">
+      </div>
+      <div class="project-copy"><span class="tag">Energetico – Biogas</span><h3>Eboli</h3></div>
+    </article>
+  </div>
+</div></section>
+<div id="lightbox"><img alt=""><p></p><div class="nav-l"><button class="prev" aria-label="Immagine precedente">◀</button><button class="next" aria-label="Immagine successiva">▶</button></div></div>
+<footer>© 2026 Officina Ingegneri srl – P.zza Bianchi 5, 25025 Manerbio (BS) – Tel. 030 6481440</footer>
+<script src="script.js"></script>
+</body>
+</html>
